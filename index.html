@@ -100,7 +100,7 @@
  	    if (!timers[user]) {
               timers[user] = {
 	      hours: 0,
-              minutes: 30,
+              minutes: 0,
               seconds: 0,
               intervalId: setInterval(updateTimer.bind(null, user), 1000)
             };
